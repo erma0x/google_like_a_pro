@@ -1,21 +1,30 @@
 
 # Example: get a python .pdf free book from www.cam.ac.uk
+
 exercises intitle:python site:cam.ac.uk filetype: .pdf
 
 # site
+
 site: limit the search to a specific site
+
 .ac.uk # search all university website in UK
+
 .uk # search all website in UK
 
 # minus (-)
+
 - arg # omit the argoument
 
 # quotation
+
 "introduction to python" search a specific result
+
 intitle: search a specific result
 
 # or
+
 python OR javascript
+
 python OR javascript search: freecodecamp.com
 
 
